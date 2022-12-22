@@ -1,0 +1,124 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.background{
+    background-image: url(background1.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav h2{
+    color: rgb(9, 13, 139);
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 2px;
+
+}
+span{
+    color:  rgb(12, 209, 253);
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+
+}
+
+nav ul li a{
+    color: rgb(9, 13, 139);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: rgb(11, 170, 237);
+    transform: scale(1.2);
+
+}
+
+.btn{
+    background-color: rgb(12, 209, 253);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transfrom .4s;
+
+}
+
+.btn:hover{
+   transform: scaleX(1.2);
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50);
+}
+
+h4{
+    color: rgb(9, 13, 139);
+    letter-spacing: 1px;
+    font-size: 30px;
+
+}
+h1{
+    color: rgb(9, 13, 139);
+    margin: 20px 0px 20px;
+    font-size: 70px;
+
+}
+
+h3{
+    color: rgb(9, 13, 139);
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.container-btn form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+
+}
+
+.container-btn form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border-radius: 30px;
+    outline: none;
+
+}
+
+.container-btn form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(12, 209, 253);
+    right: 50px;
+    top: 6px;
+   
+
+}
