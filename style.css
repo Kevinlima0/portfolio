@@ -65,7 +65,7 @@ nav ul li a:hover{
 
 .btn:hover{
    transform: scaleX(1.2);
-   color: rgb(12, 209, 253);
+  
 }
 
 .main{
@@ -104,7 +104,7 @@ h3{
 .container-btn form input:first-child{
     display: inline-block;
     width: 100%;
-    padding: 14px 5px 14px 14px;
+    padding: 14px 5px;
     border-radius: 30px;
     outline: none;
 
@@ -114,12 +114,25 @@ h3{
     position: absolute;
     display: inline-block;
     outline: none;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border: none;
     border-radius: 30px;
     background-color: rgb(12, 209, 253);
+    color: rgb(9, 13, 139);
+    box-shadow: 0px 0px 15px #858585;
     right: 6px;
     top: 6px;
    
 
+}
+
+.background-color-sobre{
+    background-color: aqua;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.background-color-sobre img{
+    width: 430px;
+    height: auto;
 }
